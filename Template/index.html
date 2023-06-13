@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<form method="POST" action="/premium" onsubmit="alertUser()">
+    <label for="room_url">Your Room URL</label>
+    <input type="text" id="room_url" name="room_url"><br><br>
+    <input type="submit" value="Run premium" name="action">
+</form>
+<script>
+    function alertUser() {
+      alert("Please keep this tab open and wait for 2 minutes, an automated bot will join your room");
+    }
+    </script>
+</body>
+</head>
+</html>
